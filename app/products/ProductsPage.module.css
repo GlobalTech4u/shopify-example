@@ -1,0 +1,39 @@
+.productsContainer {
+  padding: 24px;
+
+  .products {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    justify-content: space-around;
+  }
+
+  .MuiTypography-root {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+  }
+
+  .MuiCardHeader-root {
+    padding-bottom: 0;
+  }
+
+  .productCard {
+    padding: 24px;
+  }
+
+  .cardContent {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-normal);
+    color: var(--font-color-gray);
+  }
+}
